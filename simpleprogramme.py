@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import make_response
-app=flask(__name__)
+app=Flask(__name__)
 @app.route("/")
 def setcookies():
     response=make_response("Cookie Inserted")
